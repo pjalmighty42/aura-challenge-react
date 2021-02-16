@@ -1,4 +1,4 @@
-import { data } from "components/Record/data";
+import { data } from "../../components/Record/data";
 
 // Util
 function mockFetch() {
