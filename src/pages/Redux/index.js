@@ -2,11 +2,11 @@
 import React, { useEffect } from "react";
 
 // Components
-import { Record } from "components/Record";
+import { Record } from "../../components/Record";
 
 // Misc
-import { data } from "components/Record/data";
-import { doGetRecords } from "services/records";
+import { data } from "../../components/Record/data";
+import { doGetRecords } from "../../services/records";
 import { useDispatch } from "react-redux";
 
 // Component

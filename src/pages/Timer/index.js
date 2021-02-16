@@ -26,6 +26,7 @@ function Timer() {
     setStartTimer(true);
   }
   let ResetTimer = () => {
+    setCounter(0);
     setStartTimer(false);
   }
 
@@ -49,10 +50,7 @@ function Timer() {
       let currCount = counter;
       setCounter(currCount++);
     }
-    else{
-      setCounter(0);
-    }
-  }, []);
+  });
 
   // Render
   return (
